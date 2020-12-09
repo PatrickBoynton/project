@@ -1,14 +1,19 @@
-nav > ul {
-  display: flex;
+body, html {
+  margin: 0;
+  padding: 0;
 }
 
-li{
+ul {
+  display: flex;
+}
+li {
   list-style: none;
 }
 
-.left{
-  background-color: cyan;
+.left {
+  padding-left: 1.5rem;
 }
+
 .right{
-  background-color: lime;
+  flex-grow: 1;
 }
