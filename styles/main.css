@@ -1,0 +1,14 @@
+nav > ul {
+  display: flex;
+}
+
+li{
+  list-style: none;
+}
+
+.left{
+  background-color: cyan;
+}
+.right{
+  background-color: lime;
+}
