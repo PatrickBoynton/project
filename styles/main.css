@@ -1,32 +1,73 @@
-body, html {
-  margin: 0;
+ * {
   padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
+a{
+  text-decoration: none;
+  white-space: nowrap;
+}
 .wrapper {
   display: flex;
+  padding: 1rem;
+  border: 2px solid black;
 }
-nav{
+.nav-left{
   display: flex;
-  align-items: baseline;
 }
-ul{
-  display: inline;
+.nav-right{
+  display: flex;
+  margin-left: 25rem;
 }
-li {
+li{
   list-style: none;
-  width: 100%;
-  display: inline;
+  padding-left: 1.5rem;
 }
-
-.left {
+h1{
+  padding-top: 3rem;
+}
+.upper{
+  text-transform: uppercase;
+}
+#border{
+  border-top: 3px dashed pink;
+  border-bottom: 3px dashed pink;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.btn{
+  text-transform: uppercase;
   padding: .8rem;
-  padding-left: 1.5rem;
+  border-radius: 6px;
+  border: none;
+  background-color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 1rem;
 }
-
-.right{
+#price{
+  display: inline;
+  margin: 0 2rem;
+}
+.header-left{
+  height: 100%;
+  padding: 2rem 10rem;
+}
+#main-shoe{
+  height: 150%;
+  width: 150%;
+  margin-top: 2rem;
+}
+header{
+  background-color: red;
+  color: white;
+}
+.details-wrapper{
   display: flex;
-  justify-content: space-around;
-  margin-left: 8rem;
-  padding-left: 1.5rem;
+}
+.details-left{
+  display: flex;
+}
+.details-right{
+  margin-left: 40rem;
 }
