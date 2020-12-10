@@ -64,7 +64,7 @@ header{
 .details-wrapper{
   display: flex;
   padding: 1rem;
-  border: 2px solid pink;
+  border-bottom: 1px solid pink;
 }
 .details-left{
   display: flex;
@@ -73,5 +73,16 @@ header{
   margin-left: 40rem;
 }
 main{
+  padding: 3rem;
+}
+.p-2{
+  padding: 2rem;
+}
+.p-tb-1{
+  padding: 1rem 0;
+}
+.footer-h1{
+  text-align: center;
+  background-color: pink;
   padding: 3rem;
 }
