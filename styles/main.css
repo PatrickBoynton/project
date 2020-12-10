@@ -10,7 +10,6 @@ a{
 .wrapper {
   display: flex;
   padding: 1rem;
-  border: 2px solid black;
 }
 .nav-left{
   display: flex;
@@ -64,6 +63,8 @@ header{
 }
 .details-wrapper{
   display: flex;
+  padding: 1rem;
+  border: 2px solid pink;
 }
 .details-left{
   display: flex;
