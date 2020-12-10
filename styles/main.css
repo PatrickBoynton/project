@@ -14,9 +14,15 @@ a{
 .nav-left{
   display: flex;
 }
+.orange{
+  color: orange;
+}
 .nav-right{
   display: flex;
   margin-left: 25rem;
+}
+.pink{
+  color: pink;
 }
 li{
   list-style: none;
@@ -40,6 +46,7 @@ li{
   font-size: 1.2rem;
   cursor: pointer;
   margin-top: 1rem;
+  color: orange
 }
 #price{
   display: inline;
@@ -53,6 +60,12 @@ li{
   height: 150%;
   width: 150%;
   margin-top: 2rem;
+}
+.white{
+  color: white;
+}
+.maroon{
+  color: maroon;
 }
 header{
   background-color: red;
