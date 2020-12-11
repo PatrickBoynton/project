@@ -52,7 +52,7 @@ li{
 }
 .btn{
   text-transform: uppercase;
-  padding: .8rem 2rem;
+  padding: .8rem 1.3rem;
   border-radius: 6px;
   border: none;
   background-color: white;
@@ -74,10 +74,13 @@ li{
 }
 .header-right{
   height: : 100%;
+  padding: 2rem 4rem;
 }
 #main-shoe{
-  height: 22em;
-  padding: 2.5em 5em 3em 3em;
+  height: 18em;
+  margin-top: 2.5rem;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
 }
 .white{
   color: white;
@@ -118,5 +121,5 @@ main{
   padding:1rem 0;
 }
 .link-padding {
-  margin: 2.5rem 25rem;
+  padding-top: 2rem;
 }
