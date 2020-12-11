@@ -1,3 +1,12 @@
+/*
+#e12071 pink background
+#fd4a2c orange background
+
+#ff5021 Orange text
+#ff9696 pink text
+#fd4a2c maroon text
+#fd4a2c bottom maroon text
+ */
  * {
   padding: 0;
   margin: 0;
@@ -12,7 +21,7 @@ a{
 }
 nav > ul > li > a:hover {
   border-bottom: 3px solid pink;
-  color: maroon;
+  color: #fd4a2c;
 }
 a[class="white"] {
   margin-left: 4rem;
@@ -27,15 +36,15 @@ a[class="white"] {
   align-items: center;
 }
 .orange{
-  color: orange;
+  color: #fd4a2c;
 }
 .nav-right{
   display: flex;
-  margin-left: 18rem;
+  margin-left: 15rem;
   align-items: baseline;
 }
 .pink{
-  color: pink;
+  color: #e12071;
 }
 li{
   list-style: none;
@@ -45,8 +54,8 @@ li{
   text-transform: uppercase;
 }
 #border{
-  border-top: 3px dashed maroon;
-  border-bottom: 3px dashed maroon;
+  border-top: 3px dashed #fd4a2c;
+  border-bottom: 3px dashed #fd4a2c;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
@@ -62,7 +71,7 @@ li{
   color: orange
 }
 .btn:hover{
-  color:maroon;
+  color:#fd4a2c;
 }
 #price{
   display: inline;
@@ -86,7 +95,7 @@ li{
   color: white;
 }
 .maroon{
-  color: maroon;
+  color: #fd4a2c;
 }
 header{
   background-color: red;
@@ -122,4 +131,20 @@ main{
 }
 .link-padding {
   padding-top: 2rem;
+}
+footer{
+  background-color: red;
+  color: white;
+}
+.shoe2{
+  width: 18em;
+}
+.shoe-details{
+  margin: 2em 3em;
+}
+div > h2 {
+  display: inline;
+}
+.footer-price{
+  float: right;
 }
