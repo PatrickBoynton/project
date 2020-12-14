@@ -14,12 +14,18 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Open Sans', sans-serif;
+}
 a{
   text-decoration: none;
   white-space: nowrap;
 }
 .logo {
   height: 1.5rem;
+}
+nav{
+  font-weight: bold;
 }
 nav > ul > li > a:hover {
   border-bottom: 3px solid #e12071;
@@ -100,7 +106,7 @@ li{
   color: #800000;
 }
 header{
-  background: linear-gradient(to right, red, pink);
+  background: linear-gradient(to right, #e12071, red);
   color: white;
 }
 .details-wrapper{
@@ -126,6 +132,9 @@ main{
 .p-tb-1{
   padding: 1rem 0;
 }
+.pr{
+  padding-right: 1.5rem;
+}
 .footer-h1{
   text-align: center;
   background-color: pink;
@@ -135,7 +144,7 @@ main{
   padding-top: 2rem;
 }
 footer{
-  background-color: red;
+  background: linear-gradient(to right, #e12071, red);
   color: white;
 }
 .shoe2{
@@ -149,4 +158,12 @@ div > h2 {
 }
 .footer-price{
   float: right;
+}
+.footer-nav-right{
+  display: flex;
+  margin-left: 8rem;
+}
+
+.footer-nav-right > ul > li {
+  background-color: red;
 }
