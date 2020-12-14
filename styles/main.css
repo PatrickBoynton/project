@@ -7,6 +7,8 @@
 #fd4a2c maroon text
 #fd4a2c bottom maroon text
  */
+ /* This resets the margin and padding for everything as well as makes all elements
+     true border the border box, and not the margin, or anything else. */
  * {
   padding: 0;
   margin: 0;
@@ -20,8 +22,8 @@ a{
   height: 1.5rem;
 }
 nav > ul > li > a:hover {
-  border-bottom: 3px solid pink;
-  color: #fd4a2c;
+  border-bottom: 3px solid #e12071;
+  color: #800000;
 }
 a[class="white"] {
   margin-left: 4rem;
@@ -54,8 +56,8 @@ li{
   text-transform: uppercase;
 }
 #border{
-  border-top: 3px dashed #fd4a2c;
-  border-bottom: 3px dashed #fd4a2c;
+  border-top: 3px dashed #800000;
+  border-bottom: 3px dashed #800000;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
@@ -95,10 +97,10 @@ li{
   color: white;
 }
 .maroon{
-  color: #fd4a2c;
+  color: #800000;
 }
 header{
-  background-color: red;
+  background: linear-gradient(to right, red, pink);
   color: white;
 }
 .details-wrapper{
