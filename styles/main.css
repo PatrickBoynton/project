@@ -20,6 +20,7 @@ body{
 a{
   text-decoration: none;
   white-space: nowrap;
+  cursor: pointer;
 }
 .logo {
   height: 1.5rem;
@@ -166,4 +167,10 @@ div > h2 {
 
 .footer-nav-right > ul > li {
   background-color: red;
+}
+
+#change:hover{
+  background-color: red;
+  border: 2px solid white;
+  color: white;
 }
